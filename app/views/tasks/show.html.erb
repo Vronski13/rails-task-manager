@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+
+<h1><%= @task.title %></h1>
+<p><%= @task.details %></p>
+<%= link_to "Edit this task", edit_path(@task) %>
+<i class="fas fa-undo"></i>
+<%= link_to "Back to list", tasks_path %>
+
+
